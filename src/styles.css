@@ -1,1 +1,46 @@
+body{
+    background-color:#1a2e53;
+    color:#c8a784;
+    margin:100px 0 0 0;
+}
+h1{font-size: 64px;}
+h2{font-size: 48px;}
+h3{color: #b1b1b5;
+}
+
+footer{background-color:#c8a784; }
+i{ font-size: 42px;
+    color:#494450;
+margin: 40px 60px;}
+button{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid #494450;
+}
+
+
+.resume-button{
+    background-color:#b1b1b5;
+    color:#1a1a22;
+}
+.projects-button{
+    background-color: #c8a784;
+    color:#1a1a22;
+}
+.skills-button{
+    background-color:#eae6cf;
+    color:#1a1a22;
+}
+.navbar{ 
+    background-color: #eae6cf;
+   
+}
+
+.nav-link{color: #494450 !important;}
+.navbar-brand{color:#494450 !important;}
+.photo-developer{
+    border-radius: 50%;
+    border: 3px solid #494450;
+}
 
