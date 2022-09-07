@@ -1,46 +1,94 @@
 body{
-    background-color:#1a2e53;
-    color:#c8a784;
+    background-color:var(--main-color);
+    color:var(--primary-color);
     margin:100px 0 0 0;
 }
 h1{font-size: 64px;}
 h2{font-size: 48px;}
-h3{color: #b1b1b5;
+h3{color: var(--third-color);
 }
 
-footer{background-color:#c8a784; }
+h5{
+    color:var(--fourth-color);
+    font-size: 32px;
+}
+h6{color:var(--third-color);}
+footer{background-color:var(--primary-color); }
 i{ font-size: 42px;
-    color:#494450;
+    color:var(--fourth-color);
 margin: 40px 60px;}
 button{
     height: 160px;
     width: 160px;
     border-radius: 50%;
-    border: 1px solid #494450;
+    border: 1px solid var(--fourth-color);
+}
+button:hover{
+    color: var(--main-color);
+}
+.social{background-color: var(--secondary-color);}
+.primary-link {
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background:var(--secondary-color) ;
+    color:var(--fourth-color);
+}
+.primary-link:hover{
+    color:var(--main-color);
+}
+.secondary-Link{
+   
+    text-decoration: none;
+}
+.Contact-me{ margin:0 auto;
+    display:block;}
+.description{
+    color:var(--third-color);
+    font-size: 20px;
 }
 
 
+
+
+.wishes{
+
+   
+    margin: 20px auto;
+    background-color:var(--primary-color);
+}
 .resume-button{
-    background-color:#b1b1b5;
-    color:#1a1a22;
+    padding: 30px;
+    background-color:var(--third-color);
+    color:var(--fifth-color);
 }
 .projects-button{
-    background-color: #c8a784;
-    color:#1a1a22;
+    background-color: var(--primary-color);
+    color:var(--fifth-color);
 }
 .skills-button{
-    background-color:#eae6cf;
-    color:#1a1a22;
+    background-color:var(--secondary-color);
+    color:var(--fifth-color);
 }
 .navbar{ 
-    background-color: #eae6cf;
+    background-color: var(--secondary-color);
    
 }
 
-.nav-link{color: #494450 !important;}
-.navbar-brand{color:#494450 !important;}
+.nav-link{color: var(--fourth-color) !important;}
+.navbar-brand{color:var(--fourth-color) !important;}
 .photo-developer{
     border-radius: 50%;
-    border: 3px solid #494450;
+    border: 3px solid var(--fourth-color);
 }
 
+:root{
+    --main-color:#1a2e53;
+    --primary-color:#c8a784;
+    --secondary-color:#eae6cf;
+    --third-color:#b1b1b5;
+    --fourth-color:#494450;
+    --fifth-color:#1a1a22;
+}
