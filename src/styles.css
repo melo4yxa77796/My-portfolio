@@ -50,13 +50,21 @@ button:hover{
     font-size: 20px;
 }
 
+.footer{
+    color:var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
 
 
+.instagram-link,.linkedin-link,.email-link{
+    color:var(--primary-color);
+    text-decoration: none;
+}
 
 .wishes{
-
-   
-    margin: 20px auto;
+   font-size: 30px;
+    padding: 20px 15px;
     background-color:var(--primary-color);
 }
 .resume-button{
@@ -71,6 +79,17 @@ button:hover{
 .skills-button{
     background-color:var(--secondary-color);
     color:var(--fifth-color);
+}
+.contact-information{
+    
+   
+    text-align: center;
+   list-style-position:inside;
+    font-size: 32px;
+}
+.description{
+    color:var(--secondary-color);
+    font-size: 18px;
 }
 .navbar{ 
     background-color: var(--secondary-color);
