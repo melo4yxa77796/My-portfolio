@@ -1,18 +1,23 @@
-body{
+body{font-family: 'Cabin Sketch', cursive;
     background-color:var(--main-color);
     color:var(--primary-color);
     margin:100px 0 0 0;
 }
-h1{font-size: 64px;}
-h2{font-size: 48px;}
+h1{font-size: 64px;
+    font-family: 'Lobster', cursive;}
+h2{font-size: 48px;
+    font-family: 'Lobster', cursive;}
 h3{color: var(--third-color);
+    font-family: 'Lobster', cursive;
 }
 
 h5{
     color:var(--fourth-color);
     font-size: 32px;
+    font-family: 'Lobster', cursive;
 }
-h6{color:var(--third-color);}
+h6{color:var(--third-color);
+    font-family: 'Lobster', cursive;}
 footer{background-color:var(--primary-color); }
 i{ font-size: 42px;
     color:var(--fourth-color);
@@ -44,7 +49,8 @@ button:hover{
     text-decoration: none;
 }
 .Contact-me{ margin:0 auto;
-    display:block;}
+    display:block;
+}
 .description{
     color:var(--third-color);
     font-size: 20px;
@@ -61,7 +67,22 @@ button:hover{
     color:var(--primary-color);
     text-decoration: none;
 }
-
+.phone-number{
+    position: relative;
+    left:-51px;
+}
+.email{
+    position: relative;
+    left:44px;
+}
+.instagram{
+    position: relative;
+    left:-73px;
+}
+.linkedin{
+    position: relative;
+    left:-58px;
+}
 .wishes{
    font-size: 30px;
     padding: 20px 15px;
@@ -82,7 +103,7 @@ button:hover{
 }
 .contact-information{
     
-   
+  list-style: none;
     text-align: center;
    list-style-position:inside;
     font-size: 32px;
