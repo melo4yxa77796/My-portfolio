@@ -8,7 +8,7 @@ h1{font-size: 64px;
 h2{font-size: 48px;
     font-family: 'Lobster', cursive;}
 h3{color: var(--third-color);
-    font-family: 'Lobster', cursive;
+    font-family: 'Cabin Sketch', cursive;
 }
 
 h5{
@@ -84,6 +84,7 @@ button:hover{
     left:-58px;
 }
 .wishes{
+  
    font-size: 30px;
     padding: 20px 15px;
     background-color:var(--primary-color);
@@ -123,7 +124,7 @@ button:hover{
     border-radius: 50%;
     border: 3px solid var(--fourth-color);
 }
-
+.get-in{color:var(--third-color);}
 :root{
     --main-color:#1a2e53;
     --primary-color:#c8a784;
@@ -132,3 +133,24 @@ button:hover{
     --fourth-color:#494450;
     --fifth-color:#1a1a22;
 }
+@media( max-width:576px){
+    
+    h1{font-size: 48px;
+    }
+    h2{text-align: center;}
+    p{text-align: center;}
+   footer{display: none;}
+  .primary-link{
+       display:block;
+       text-align: center;
+      
+   }
+   .get-in{font-size: 36px;}
+   .photo-developer{height: 95%;
+width: 95%;
+display:block;
+margin: auto;}
+.fa-solid,.fa-brands{display: none;
+text-align: center;
+}
+   }
