@@ -67,22 +67,7 @@ button:hover{
     color:var(--primary-color);
     text-decoration: none;
 }
-.phone-number{
-    position: relative;
-    left:-51px;
-}
-.email{
-    position: relative;
-    left:44px;
-}
-.instagram{
-    position: relative;
-    left:-73px;
-}
-.linkedin{
-    position: relative;
-    left:-58px;
-}
+
 .wishes{
   
    font-size: 30px;
