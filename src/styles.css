@@ -143,4 +143,7 @@ margin: auto;}
 .fa-solid,.fa-brands{display: none;
 text-align: center;
 }
-   }
+.phone-number{
+    color:var(--primary-color);
+    text-decoration: none;
+}}
