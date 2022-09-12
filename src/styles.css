@@ -62,7 +62,10 @@ button:hover{
     font-size: 28px;
     text-decoration: none;
 }
-
+.phone-number{
+    color:var(--primary-color);
+    text-decoration: none;
+}
 
 .instagram-link,.linkedin-link,.email-link{
     color:var(--primary-color);
