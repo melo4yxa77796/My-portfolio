@@ -64,7 +64,7 @@ button:hover{
 }
 .phone-number{
     color:var(--primary-color);
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 .instagram-link,.linkedin-link,.email-link{
